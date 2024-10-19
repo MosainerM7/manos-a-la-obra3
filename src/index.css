@@ -1,0 +1,26 @@
+/* Estilos globales */
+
+.main_container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .div-tareas {
+    width: 500px;
+  }
+  
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 1px solid #000000;
+  }
+  
+  .main-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+

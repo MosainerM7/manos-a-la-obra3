@@ -1,0 +1,26 @@
+.add_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.form {
+  display: flex;
+  width: 100%;
+}
+
+.input_text_task{
+    width: 350px;
+    height: 40px;
+    border: 2px solid rgb(0, 0, 0);     
+}
+
+.button_add_task{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    width: 20%;
+    background-color: #fff;
+    border: 2px solid rgb(0, 0, 0);
+    margin-left: 2px;
+
+}

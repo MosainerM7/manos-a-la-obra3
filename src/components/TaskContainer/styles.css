@@ -1,0 +1,41 @@
+.task_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;        
+    margin: 10px 0      ;
+    border: 2px solid rgb(0, 0, 0);    
+  }
+  
+  .task_conteiner_checbox_label {
+    display: flex;
+    align-items: center;
+  }
+  
+  .input_checkbox {
+    margin-right: 1rem;
+  }
+  
+  .label_task {
+    font-weight: bold;
+  }
+  
+  .noCompletada {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+  }
+  
+  .completada {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: line-through;
+    color: #ccc;
+  }
+  
+  .input_delete {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .input_delete:hover {
+    color: rgb(255, 255, 255);
+  }
